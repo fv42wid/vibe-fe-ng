@@ -1,3 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import '~@angular/material/core/theming/prebuilt/purple-green.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-spacer {
+    flex: 1 1 auto;
+}
