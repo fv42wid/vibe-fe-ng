@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import 'hammerjs';
+import { Angular2TokenService } from 'angular2-token';
 
 import { AppComponent } from './app.component';
 
@@ -20,7 +21,7 @@ import { AppComponent } from './app.component';
     MaterialModule,
     FlexLayoutModule
   ],
-  providers: [],
+  providers: [Angular2TokenService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
